@@ -1,6 +1,8 @@
 /**
 https://www.teamdev.com/jxcapture
  */
+
+
 public class CaptureDesktops {
     public static void main(String[] args) throws Exception {
         ImageCapture imageCapture = ImageCapture.create();
