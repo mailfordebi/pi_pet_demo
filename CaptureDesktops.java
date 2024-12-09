@@ -10,7 +10,6 @@ public class CaptureDesktops {
         int numberOfDisplays = Desktop.getNumberOfDisplays();
         for (int i = 0; i < numberOfDisplays; i++) {
             imageCapture.setImageSource(new Desktop(i));
-
             long before = System.currentTimeMillis();
             Dimension size = imageCapture.getImageSource().getSize();
             File f=new File("Desktop[" + i + "], size[Width=" + size.width + ",Height=" + size.height + "].png");
