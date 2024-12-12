@@ -17,7 +17,7 @@ public class CaptureDesktops {
                     takeSnapshot()
                     .save(f, ImageFormat.PNG);
 
-            
+    
             long after = System.currentTimeMillis();
             System.out.println("File:"+f.getName());
             System.out.println("Operation took " + (after - before) + " milliseconds.");
